@@ -1,8 +1,8 @@
 interface Cliente {
   nome: string;
-  endereco: string;
-  telefone: string;
   cpf: string;
+  telefone: string;
+  endereco: string;
 }
 
-export {}
+export default Cliente;
