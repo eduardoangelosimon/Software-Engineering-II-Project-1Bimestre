@@ -27,3 +27,9 @@ export const updateCliente = async (cliente: any) => {
     endereco: cliente.endereco,
   })
 }
+
+export const deleteCliente = async (cliente: any) => {
+  await api.delete("/clientes/cliente", {
+    params:{id: cliente.id}
+  })
+}
