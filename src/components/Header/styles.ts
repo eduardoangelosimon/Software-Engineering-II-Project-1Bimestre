@@ -1,26 +1,23 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const Container = styled.div`
-  background-color: var(--purple);
+export const HeaderContainer = styled.div`
+  background-color: #5429cc;
   height: 20vh;
+  display: flex;
+
+  nav, ul {
+    display: flex;
+    list-style: none;
+  }
 `
 
-export const NavigationBar = styled.div`
-  display: flex;
-  align-items: center;
-  position: relative;
-  float: right;
-`
-
-export const NavigationButton = styled.a`
-  color: white;
-  display: flex;
-  padding: 1.5rem;
-  flex: row;
-  align-items: center;
-  cursor: pointer;
-
-  :hover{
-    background-color: var(--purple-light);
+export const NavButton = styled.li`
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
   }
 `

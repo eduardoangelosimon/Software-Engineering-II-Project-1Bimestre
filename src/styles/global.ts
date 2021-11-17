@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import styled from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   :root {
@@ -57,4 +58,11 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0.6;
     cursor: not-allowed;
   }
+`
+
+export const Title = styled.h1`
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
 `

@@ -1,10 +1,9 @@
-import { Header } from "../../components/Header";
 
 export function LoginPage(){
   
   return (
     <>
-      <Header/>
+      <h1>Entrou na Login Page</h1>
     </>
   );
 }

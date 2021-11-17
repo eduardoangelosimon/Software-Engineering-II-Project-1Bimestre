@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getClientes } from '../../services/clientesController';
+import { DadosDoCliente, DadosContainer, EditButton } from './styles';
+
 
 export default function Clientes() {
   const [clientes, setClientes] = useState<any[]>([]);
@@ -15,17 +17,24 @@ export default function Clientes() {
 
   return (
     <>
-      <div>
+      <DadosContainer>
         {clientes.map((cliente) => (
-          <div key={cliente.id}>
-            <p>{cliente.id}</p>
-            <p>{cliente.nome}</p>
-            <p>{cliente.cpf}</p>
-            <p>{cliente.telefone}</p>
-            <p>{cliente.endereco}</p>
-          </div>
+          <DadosDoCliente key={cliente.id}>
+
+            <span>ID: {cliente.id}</span>
+            <br />
+            <span>Nome: {cliente.nome}</span>
+            <br />
+            <span>CPF: {cliente.cpf}</span>
+            <br />
+            <span>Telefone: {cliente.telefone}</span>
+            <br />
+            <span>Endereço: {cliente.endereco}</span>
+  
+          </DadosDoCliente>
         ))}
-      </div>
+      </DadosContainer>
+      <EditButton>Editar Cliente</EditButton>
     </>
   );
 }
