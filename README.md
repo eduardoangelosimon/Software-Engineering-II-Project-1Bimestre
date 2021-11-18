@@ -1,3 +1,29 @@
+#💻 O Projeto
+--
+Esse é um projeto desenvolvido durante as aulas da disciplina de Engenharia de Software II na Universidade Vila Velha. A aplicação foi trabalhada para atender todos os requisitos propostos pelo professor. São eles:
+- Características do cliente: nome, endereço, telefone (celular e/ou residencial), cpf.
+- Cenários a serem trabalhados: inserir, consultar, alterar, remover e listar todos os clientes
+- Todos os dados são obrigatórios.
+
+O desenvolvimento do projeto foi pensado na escalabilidade, já que terão outras sprints de desenvolvimento que incrementarão o código atual. Esse repositório contem apenas o front-end, o back-end está postado no repositório a seguir:
+- <a href="https://github.com/eduardoangelosimon/restApi-master">Back-End</a> <br>
+
+#🚀 Tecnologias
+--
+Estas são as tecnologias utilizadas no desenvolvimento do projeto:
+- <a href="https://pt-br.reactjs.org/docs/getting-started.html">ReactJS</a> <br>
+- <a href="https://nodejs.org/en/">NodeJS</a> <br>
+- <a href="https://expressjs.com/">Express</a> <br>
+- <a href="https://www.typescriptlang.org/docs/">TypeScript</a> <br>
+- <a href="https://dev.mysql.com/doc/">MySQL</a> <br>
+
+#👷Autores do Projeto
+--
+- Eduardo Angelo Simon
+- Gabriel Pizzani Palhares
+- Larissa Ruthyle Dantier
+- Rafael Antunes Costa
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
