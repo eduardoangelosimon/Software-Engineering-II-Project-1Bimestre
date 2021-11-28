@@ -5,8 +5,7 @@ Esse é um projeto desenvolvido durante as aulas da disciplina de Engenharia de 
 - Cenários a serem trabalhados: inserir, consultar, alterar, remover e listar todos os clientes
 - Todos os dados são obrigatórios.
 
-O desenvolvimento do projeto foi pensado na escalabilidade, já que terão outras sprints de desenvolvimento que incrementarão o código atual. Esse repositório contem apenas o front-end, o back-end está postado no repositório a seguir:
-- <a href="https://github.com/eduardoangelosimon/restApi-master">Back-End</a> <br>
+O desenvolvimento do projeto foi pensado na escalabilidade, já que terão outras sprints de desenvolvimento que incrementarão o código atual. Esse repositório contem o front-end e o back-end.
 
 #🚀 Tecnologias
 --
