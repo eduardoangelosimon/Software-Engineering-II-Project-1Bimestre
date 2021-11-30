@@ -1,11 +1,10 @@
 #💻 O Projeto
 --
-Esse é um projeto desenvolvido durante as aulas da disciplina de Engenharia de Software II na Universidade Vila Velha. A aplicação foi trabalhada para atender todos os requisitos propostos pelo professor. São eles:
-- Características do cliente: nome, endereço, telefone (celular e/ou residencial), cpf.
-- Cenários a serem trabalhados: inserir, consultar, alterar, remover e listar todos os clientes
-- Todos os dados são obrigatórios.
+Esse é um projeto desenvolvido durante as aulas da disciplina de Engenharia de Software II na Universidade Vila Velha.
 
-O desenvolvimento do projeto foi pensado na escalabilidade, já que terão outras sprints de desenvolvimento que incrementarão o código atual. Esse repositório contem o front-end e o back-end.
+O desenvolvimento do projeto foi pensado na escalabilidade, já que terão outras sprints de desenvolvimento que incrementarão o código atual. Pensando nisso, utilizamos o padrão MVC para o fazer a independência das 4 camadas do código, sendo elas o front-end, back-end, controller e banco de dados.
+
+A ideia central da aplicação é a definição de classes e métodos relacionados a manutenção de uma venda em uma determinada loja. Nesse caso, temos o cadastro de clientes, produtos, vendas e vendedores.
 
 #Diagrama de Classes
 --
