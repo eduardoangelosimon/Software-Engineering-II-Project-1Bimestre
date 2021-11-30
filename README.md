@@ -7,6 +7,10 @@ Esse é um projeto desenvolvido durante as aulas da disciplina de Engenharia de 
 
 O desenvolvimento do projeto foi pensado na escalabilidade, já que terão outras sprints de desenvolvimento que incrementarão o código atual. Esse repositório contem o front-end e o back-end.
 
+#Diagrama de Classes
+--
+
+
 #🚀 Tecnologias
 --
 Estas são as tecnologias utilizadas no desenvolvimento do projeto:
