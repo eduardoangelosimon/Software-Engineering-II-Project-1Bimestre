@@ -8,6 +8,8 @@ A ideia central da aplicação é a definição de classes e métodos relacionad
 
 #Diagrama de Classes
 --
+![Diagrama de Classes](https://user-images.githubusercontent.com/62440116/144115384-ab3e319b-ac42-4ef6-a064-0049e52c7071.png)
+
 
 
 #🚀 Tecnologias
